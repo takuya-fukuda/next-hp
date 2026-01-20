@@ -1,12 +1,12 @@
 ﻿"use client";
 
 import { useEffect } from "react";
-import HomeFirstSection from "@/components/HomeFirstSection";
-import HomeSecondSection from "@/components/HomeSecondSection";
-import HomeThirdSection from "@/components/HomeThirdSection";
-import HomeFourthSection from "@/components/HomeFourthSection";
-import HomeFiveSection from "@/components/HomeFiveSection";
-import HomeSixSection from "@/components/HomeSixSection";
+import HomeFirstSection from "@/components/home/HomeFirstSection";
+import HomeSecondSection from "@/components/home/HomeSecondSection";
+import HomeThirdSection from "@/components/home/HomeThirdSection";
+import HomeFourthSection from "@/components/home/HomeFourthSection";
+import HomeFiveSection from "@/components/home/HomeFiveSection";
+import HomeSixSection from "@/components/home/HomeSixSection";
 
 export default function Page() {
   useEffect(() => {

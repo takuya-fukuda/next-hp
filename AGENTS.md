@@ -13,11 +13,11 @@ https://hairstagerebirth.com/
 ・CSSはTailwind.cssで記載をしてください
 ・AppRouterを使用してください。
 ・HPのメインページのコンポーネントの作り方は下記でお願いします。
-app配下
-(main)--page.tsx
-components--HomeFirstSection.tsx
-　　　　　　-HomeSecondSection.tsx
-　　　　　　-HomeThirdSection.tsx
-　　　　　　-HomeFourthSection.tsx
-　　　　　　-HomeFiveSection.tsx
-　　　　　　-HomeSixSection.tsx
+app/(main)/page.tsx
+components/home/HomeFirstSection.tsx
+components/home/HomeSecondSection.tsx
+components/home/HomeThirdSection.tsx
+components/home/HomeFourthSection.tsx
+components/home/HomeFiveSection.tsx
+components/home/HomeSixSection.tsx
+・HPのヘッダーとフッターはlayout.tsxに定義

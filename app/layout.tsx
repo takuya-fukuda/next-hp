@@ -131,10 +131,10 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             <nav className="mt-6">
               <ul className="flex flex-wrap justify-center gap-6 text-[14px]">
                 <li>
-                  <a href="https://hairstagerebirth.com/sitemap/">繧ｵ繧､繝医・繝・・</a>
+                  <a href="https://hairstagerebirth.com/sitemap/">サイトマップ</a>
                 </li>
                 <li>
-                  <a href="https://hairstagerebirth.com/privacy/">繝励Λ繧､繝舌す繝ｼ繝昴Μ繧ｷ繝ｼ</a>
+                  <a href="https://hairstagerebirth.com/privacy/">プライバシーポリシー</a>
                 </li>
               </ul>
             </nav>
@@ -145,12 +145,12 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                 rel="noopener"
                 className="text-black hover:opacity-70"
               >
-                <i className="fa fa-instagram fa-2x" aria-hidden="true"></i>
+                <i className="fab fa-instagram fa-2x"></i>
               </a>
             </div>
           </div>
           <div className="bg-[#f2f2f2] py-4 text-center text-[12px]">
-            Copyright ﾂｩ 2023 Hair Stage Re:birth All rights Reserved.
+            Copyright © 2023 Hair Stage Re:birth All rights Reserved.
           </div>
         </footer>
       </body>

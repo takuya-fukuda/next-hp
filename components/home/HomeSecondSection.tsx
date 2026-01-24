@@ -36,7 +36,7 @@ export default function HomeSecondSection() {
             >
               <div className="flex flex-wrap items-center gap-2 text-[14px]">
                 <p className="inline-flex items-center bg-black px-2 py-1 text-[12px] text-white">
-                  <a href="https://hairstagerebirth.com/news/">新着情報</a>
+                  <a href="https://hairstagerebirth.com/news/" className="text-white">新着情報</a>
                 </p>
                 <p className="text-[12px]">{item.date}</p>
                 <span className="text-[12px]">│</span>

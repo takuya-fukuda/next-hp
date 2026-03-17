@@ -1,9 +1,11 @@
 ## タスク
 https://hairstagerebirth.com/
-
+  
 上記HPのNext.jsへの改修
 
 ## Next.jsコーディング時の制約
+
+```
 ・フレームワークはNext.jsであること
 ・言語はTypeScriptであること
 ・HPは全く同じデザインであること
@@ -21,3 +23,4 @@ components/home/HomeFourthSection.tsx
 components/home/HomeFiveSection.tsx
 components/home/HomeSixSection.tsx
 ・HPのヘッダーとフッターはlayout.tsxに定義
+```
